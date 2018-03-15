@@ -1,3 +1,25 @@
 .panel-title {
   color: black;
 }
+
+#blueheading1{
+  background-color: #cedff2;
+}
+#bluefull1{
+  background-color: #f5faff;
+}
+
+#blueheading2{
+  background-color: #cedff2;
+}
+#bluefull2{
+  background-color: #f5faff;
+}
+#globe{
+  float:left;
+  max-width: 10%;
+}
+#tabs{
+  float:none;
+  text-align: bottom;
+}

@@ -5739,14 +5739,13 @@ button.list-group-item-danger.active:focus {
 .panel-info {
   border-color: #cef2e0;
   border: 1px solid green;
-  padding: 16px;
+  padding: 5px;
 }
 .panel-info > .panel-heading {
   color: #31708f;
   background-color: #cef2e0;
   border-color: #cef2e0;
   border: 2px solid green;
-  padding: 4px;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;

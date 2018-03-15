@@ -14,13 +14,14 @@
     <title>Wikipedia Rebuild</title>
   </head>
   <body>
-    <img src="img/wikiglobe.png">
-    <ul class="nav nav-tabs">
+    <img src="img/wikiglobe.png" id="globe">
+    <ul class="nav nav-tabs" id="tabs">
       <li role="presentation" class "active"><a href="#">Main Page</a></li>
       <li role="presentation"><a href="#">Talk</a></li>
     </ul>
+  <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <div class="panel panel-info">
             <div class="panel-heading">
               <span class="panel-title"><h3>From today's featured article</h3></span>
@@ -42,20 +43,25 @@
               <li>... that due to its proximity to a charter school, alcoholic beverages cannot be served at Zions Bank Stadium?</li>
               <li>... that Akane Fujita decided to become a voice actress partly because she "wanted to do something that was fun"?
               Archive Start a new article Nominate an article</li>
-            </div>
           </div>
         </div>
-      <div class="col-md-4">
-        <div class="well">
-          <h3>In the News</h3>
-          <li>In response to the attempted murder of Sergei Skripal with a nerve agent, the United Kingdom expels 23 Russian diplomats.</li>
-          <li>British physicist and cosmologist Stephen Hawking (pictured) dies at the age of 76.</li>
-          <li>At least 49 people are killed after US-Bangla Airlines Flight 211 crashes en route from Dhaka, Bangladesh, to Kathmandu, Nepal.</li>
-          <li>The Winter Paralympics open in Pyeongchang, South Korea.</li>
-          <li>The wreck of USS Lexington is discovered in the Coral Sea.</li>
-          <p>Ongoing: Rif Dimashq offensive · Turkish military operation in Afrin
-          Recent deaths: Jim Bowen Ken Dodd Karl Lehmann Millie Dunn Veasey</p>
-          <h3>On this day...</h3>
+      <div class="col-md-5">
+          <div class="panel panel-info" id="bluefull1">
+            <div class="panel-heading" id="blueheading1">
+              <span class="panel-title"><h3>In the News</h3></span>
+            </div>
+            <div class="panel-body">
+                <li>In response to the attempted murder of Sergei Skripal with a nerve agent, the United Kingdom expels 23 Russian diplomats.</li>
+                <li>British physicist and cosmologist Stephen Hawking (pictured) dies at the age of 76.</li>
+                <li>At least 49 people are killed after US-Bangla Airlines Flight 211 crashes en route from Dhaka, Bangladesh, to Kathmandu, Nepal.</li>
+                <li>The Winter Paralympics open in Pyeongchang, South Korea.</li>
+                <li>The wreck of USS Lexington is discovered in the Coral Sea.</li>
+                <p>Ongoing: Rif Dimashq offensive · Turkish military operation in Afrin
+                Recent deaths: Jim Bowen Ken Dodd Karl Lehmann Millie Dunn Veasey</p>
+            </div>
+            <div class="panel-heading" id="blueheading2">
+              <span class="panel-title"><h3>On this day...</h3></span>
+            </div>
           <p>March 15: Ides of March</p>
           <li>44 BC – Dictator Julius Caesar of the Roman Republic was stabbed to death (pictured) by Marcus Junius Brutus and several other Roman senators.</li>
           <li>1875 – Archbishop of New York John McCloskey was named the first cardinal in the United States.</li>
@@ -65,11 +71,10 @@
           <p>Archibald Menzies (b. 1754) · Matthew Charlton (b. 1866) · Paul Pogba (b. 1993)
           More anniversaries: March 14 March 15 March 16
           Archive By email List of historical anniversaries</p>
-
         </div>
       </div>
     </div>
-
+  </div>
   </body>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
