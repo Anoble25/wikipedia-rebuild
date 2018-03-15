@@ -5449,7 +5449,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #ebf9f2;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -5737,12 +5737,16 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #d6e9c6;
 }
 .panel-info {
-  border-color: #bce8f1;
+  border-color: #cef2e0;
+  border: 1px solid green;
+  padding: 16px;
 }
 .panel-info > .panel-heading {
   color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  background-color: #cef2e0;
+  border-color: #cef2e0;
+  border: 2px solid green;
+  padding: 4px;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
