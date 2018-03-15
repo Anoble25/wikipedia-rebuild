@@ -23,3 +23,16 @@
   float:none;
   text-align: bottom;
 }
+
+#navbar1{
+  float: left;
+
+}
+
+#listyle{
+  list-style-type: none;
+}
+
+.bborder{
+  border-bottom: 1px solid grey;
+}
