@@ -33,6 +33,10 @@
   list-style-type: none;
 }
 
+#hawking{
+  float:right;
+  max-width:50%;
+}
 .bborder{
   border-bottom: 1px solid grey;
 }
